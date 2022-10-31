@@ -30,6 +30,8 @@ namespace CsharpFunctionalProblem
                         hm.CalHarmonic();
                         break;
                     case 5:
+                        Primefactor pf = new Primefactor();
+                        pf.Prime();
                         break;
                     case 6:
                         QuoRem quoRem = new QuoRem();
