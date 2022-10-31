@@ -7,8 +7,8 @@ namespace CsharpFunctionalProblem
         {
             CoinFlip fn = new CoinFlip();
             fn.FlipCoin();
+            LeapYear lp = new LeapYear();
+            lp.CheckLeapYear();
         }
     }
 }
-
-//
