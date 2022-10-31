@@ -20,6 +20,7 @@ namespace CsharpFunctionalProblem
             {
                 Console.WriteLine("Number is Odd");
             }
+
         }
     }
 }

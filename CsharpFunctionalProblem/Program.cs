@@ -35,7 +35,7 @@ namespace CsharpFunctionalProblem
                         QuoRem quoRem = new QuoRem();
                         quoRem.FindQuoRem();
                         break;
-                    case 7: 
+                    case 7:
                         Swap2Num sp = new Swap2Num();
                         sp.Swap();
                         break;
