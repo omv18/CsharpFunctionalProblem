@@ -39,6 +39,10 @@ namespace CsharpFunctionalProblem
                         Swap2Num sp = new Swap2Num();
                         sp.Swap();
                         break;
+                    case 8:
+                        EvenOdd eo = new EvenOdd();
+                        eo.CheckEvenOdd();
+                        break;
                     case 12:
                         flag = false;
                         break;
