@@ -47,6 +47,10 @@ namespace CsharpFunctionalProblem
                         Alphabet ap = new Alphabet();
                         ap.CheckAlpha();
                         break;
+                    case 10:
+                        LargeFindNum lg = new LargeFindNum();
+                        lg.CheckLarge();
+                        break;
                     case 12:
                         flag = false;
                         break;
