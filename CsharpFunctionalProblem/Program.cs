@@ -9,6 +9,8 @@ namespace CsharpFunctionalProblem
             fn.FlipCoin();
             LeapYear lp = new LeapYear();
             lp.CheckLeapYear();
+            Pow2N pow = new Pow2N();
+            pow.CalPow();
         }
     }
 }
