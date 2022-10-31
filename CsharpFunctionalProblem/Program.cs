@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel;
+
 namespace CsharpFunctionalProblem
 {
     class Program
@@ -32,6 +34,10 @@ namespace CsharpFunctionalProblem
                     case 6:
                         QuoRem quoRem = new QuoRem();
                         quoRem.FindQuoRem();
+                        break;
+                    case 7: 
+                        Swap2Num sp = new Swap2Num();
+                        sp.Swap();
                         break;
                     case 12:
                         flag = false;
