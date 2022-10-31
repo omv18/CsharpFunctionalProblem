@@ -11,6 +11,8 @@ namespace CsharpFunctionalProblem
             lp.CheckLeapYear();
             Pow2N pow = new Pow2N();
             pow.CalPow();
+            HarmonicNumber hm = new HarmonicNumber();
+            hm.CalHarmonic();
         }
     }
 }
