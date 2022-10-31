@@ -22,7 +22,7 @@ namespace CsharpFunctionalProblem
             {
                 harmonic += (float)1 / N;
             }
-            Console.WriteLine("Harmonic value upto"+ N + " : "+harmonic);
+            Console.WriteLine("Harmonic value upto "+ N + " : "+harmonic);
         }
     }
 }
