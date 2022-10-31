@@ -43,6 +43,10 @@ namespace CsharpFunctionalProblem
                         EvenOdd eo = new EvenOdd();
                         eo.CheckEvenOdd();
                         break;
+                    case 9: 
+                        Alphabet ap = new Alphabet();
+                        ap.CheckAlpha();
+                        break;
                     case 12:
                         flag = false;
                         break;
