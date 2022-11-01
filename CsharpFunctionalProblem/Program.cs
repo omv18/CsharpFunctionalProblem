@@ -10,6 +10,8 @@ namespace CsharpFunctionalProblem
             bool flag = true;
             while (flag)
             {
+                Console.WriteLine("1.FLip Coin \n" + "2.Leap Year \n" + "3. Power 2^N \n" + "4.Harmonic Number \n"+"5. Prime Factor \n"+"6. Quotient and Remainder\n"+
+                    "7.Swap Number \n"+"8.Even Odd \n"+" 9. Check ALphabet \n"+"10. Large among 3 numbers");
                 int val = Convert.ToInt32(Console.ReadLine());
                 switch (val)
                 {
@@ -56,10 +58,6 @@ namespace CsharpFunctionalProblem
                         break;
                 }
             }
-
-
-
-
         }
     }
 }
